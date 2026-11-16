@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "fixture": "tsx scripts/export-fixture.ts",
-    "test:py": "cd python && .venv/bin/pytest -q"
+    "test:py": "cd python && .venv/bin/pytest -q",
+    "test": "tsx --test scripts/er.test.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.9.0",

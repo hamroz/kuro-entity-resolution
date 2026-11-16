@@ -46,3 +46,4 @@ __pycache__/
 .pytest_cache/
 *.pyc
 decision-log.json
+!.env.example
