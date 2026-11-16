@@ -1,0 +1,6569 @@
+{
+ "mentions": [
+  {
+   "id": "d01:0",
+   "doc_id": "d01",
+   "type": "org",
+   "surface": "Brandt Generalbau GmbH",
+   "start": 0,
+   "end": 22,
+   "line": 1,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "SPB-25",
+    "city": "Berlin",
+    "street": "kurfuerstendamm 180",
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "General contractor",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "brandt",
+     "generalbau"
+    ],
+    "compact": "brandtgeneralbau"
+   }
+  },
+  {
+   "id": "d01:210",
+   "doc_id": "d01",
+   "type": "org",
+   "surface": "Müller Bauunternehmung GmbH",
+   "start": 210,
+   "end": 237,
+   "line": 7,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "SPB-25",
+    "city": "Berlin",
+    "street": "industriestrasse 12",
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Rohbau",
+    "role": "Bieter",
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "mueller",
+     "bau"
+    ],
+    "compact": "muellerbau"
+   }
+  },
+  {
+   "id": "d01:305",
+   "doc_id": "d01",
+   "type": "person",
+   "surface": "Sabine Wolff",
+   "start": 305,
+   "end": 317,
+   "line": 10,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": "Ansprechpartnerin",
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": "d01:210",
+    "org_surface": "Müller Bauunternehmung GmbH"
+   },
+   "norm": {
+    "first": "sabine",
+    "last": "wolff"
+   }
+  },
+  {
+   "id": "d01:768",
+   "doc_id": "d01",
+   "type": "org",
+   "surface": "Eisen-Koch Bewehrungsbau",
+   "start": 768,
+   "end": 792,
+   "line": 17,
+   "extractor": "rules",
+   "how": "label",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Rohbau",
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "eisen",
+     "koch",
+     "bewehrungsbau"
+    ],
+    "compact": "eisenkochbewehrungsbau"
+   }
+  },
+  {
+   "id": "d01:808",
+   "doc_id": "d01",
+   "type": "person",
+   "surface": "Thomas Becker",
+   "start": 808,
+   "end": 821,
+   "line": 19,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": "Aufgestellt",
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": "d01:834",
+    "org_surface": "Brandt Generalbau GmbH"
+   },
+   "norm": {
+    "first": "thomas",
+    "last": "becker"
+   }
+  },
+  {
+   "id": "d01:834",
+   "doc_id": "d01",
+   "type": "org",
+   "surface": "Brandt Generalbau GmbH",
+   "start": 834,
+   "end": 856,
+   "line": 19,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "General contractor",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "brandt",
+     "generalbau"
+    ],
+    "compact": "brandtgeneralbau"
+   }
+  },
+  {
+   "id": "d02:0",
+   "doc_id": "d02",
+   "type": "org",
+   "surface": "Schmidt Elektro GmbH",
+   "start": 0,
+   "end": 20,
+   "line": 1,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "SPB-25",
+    "city": "Berlin",
+    "street": "sonnenallee 210",
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Elektro",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "schmidt",
+     "elektro"
+    ],
+    "compact": "schmidtelektro"
+   }
+  },
+  {
+   "id": "d02:106",
+   "doc_id": "d02",
+   "type": "org",
+   "surface": "Brandt Generalbau GmbH",
+   "start": 106,
+   "end": 128,
+   "line": 5,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "SPB-25",
+    "city": "Berlin",
+    "street": "kurfuerstendamm 180",
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "General contractor",
+    "role": "An",
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "brandt",
+     "generalbau"
+    ],
+    "compact": "brandtgeneralbau"
+   }
+  },
+  {
+   "id": "d02:130",
+   "doc_id": "d02",
+   "type": "person",
+   "surface": "Herrn Thomas Becker",
+   "start": 130,
+   "end": 149,
+   "line": 5,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": "d02:106",
+    "org_surface": "Brandt Generalbau GmbH"
+   },
+   "norm": {
+    "first": "thomas",
+    "last": "becker"
+   }
+  },
+  {
+   "id": "d02:336",
+   "doc_id": "d02",
+   "type": "person",
+   "surface": "Herr Becker",
+   "start": 336,
+   "end": 347,
+   "line": 12,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "first": "",
+    "last": "becker"
+   }
+  },
+  {
+   "id": "d02:517",
+   "doc_id": "d02",
+   "type": "org",
+   "surface": "Müller Bau",
+   "start": 517,
+   "end": 527,
+   "line": 15,
+   "extractor": "rules",
+   "how": "gazetteer",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "mueller",
+     "bau"
+    ],
+    "compact": "muellerbau"
+   }
+  },
+  {
+   "id": "d02:557",
+   "doc_id": "d02",
+   "type": "person",
+   "surface": "Jens Schmidt",
+   "start": 557,
+   "end": 569,
+   "line": 18,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": "d02:570",
+    "org_surface": "Schmidt Elektro GmbH"
+   },
+   "norm": {
+    "first": "jens",
+    "last": "schmidt"
+   }
+  },
+  {
+   "id": "d02:570",
+   "doc_id": "d02",
+   "type": "org",
+   "surface": "Schmidt Elektro GmbH",
+   "start": 570,
+   "end": 590,
+   "line": 19,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Elektro",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "schmidt",
+     "elektro"
+    ],
+    "compact": "schmidtelektro"
+   }
+  },
+  {
+   "id": "d02:592",
+   "doc_id": "d02",
+   "type": "org",
+   "surface": "Schmidt Elektro GmbH",
+   "start": 592,
+   "end": 612,
+   "line": 21,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "SPB-25",
+    "city": "Berlin",
+    "street": "sonnenallee 210",
+    "vat": "DE301552784",
+    "register": "HRB 201877",
+    "vendor": null,
+    "trade": "Elektro",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "schmidt",
+     "elektro"
+    ],
+    "compact": "schmidtelektro"
+   }
+  },
+  {
+   "id": "d03:0",
+   "doc_id": "d03",
+   "type": "org",
+   "surface": "Müller Bau GmbH",
+   "start": 0,
+   "end": 15,
+   "line": 1,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "SPB-25",
+    "city": "Berlin",
+    "street": "industriestrasse 12",
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "mueller",
+     "bau"
+    ],
+    "compact": "muellerbau"
+   }
+  },
+  {
+   "id": "d03:49",
+   "doc_id": "d03",
+   "type": "org",
+   "surface": "Brandt Generalbau GmbH",
+   "start": 49,
+   "end": 71,
+   "line": 5,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "SPB-25",
+    "city": "Berlin",
+    "street": "kurfuerstendamm 180",
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "General contractor",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "brandt",
+     "generalbau"
+    ],
+    "compact": "brandtgeneralbau"
+   }
+  },
+  {
+   "id": "d03:185",
+   "doc_id": "d03",
+   "type": "org",
+   "surface": "Müller Bau GmbH",
+   "start": 185,
+   "end": 200,
+   "line": 11,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": "4711",
+    "trade": "Rohbau",
+    "role": "Rechnungssteller",
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "mueller",
+     "bau"
+    ],
+    "compact": "muellerbau"
+   }
+  },
+  {
+   "id": "d03:567",
+   "doc_id": "d03",
+   "type": "person",
+   "surface": "Sabine Wolff",
+   "start": 567,
+   "end": 579,
+   "line": 21,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": "Ansprechpartnerin",
+    "email_domain": "mueller-bau-berlin.de",
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "first": "sabine",
+    "last": "wolff"
+   }
+  },
+  {
+   "id": "d03:629",
+   "doc_id": "d03",
+   "type": "org",
+   "surface": "Müller Bau GmbH",
+   "start": 629,
+   "end": 644,
+   "line": 23,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "SPB-25",
+    "city": "Berlin",
+    "street": null,
+    "vat": "DE287445190",
+    "register": "HRB 145233",
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "mueller",
+     "bau"
+    ],
+    "compact": "muellerbau"
+   }
+  },
+  {
+   "id": "d03:664",
+   "doc_id": "d03",
+   "type": "person",
+   "surface": "Peter Müller",
+   "start": 664,
+   "end": 676,
+   "line": 23,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": "Geschäftsführer",
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": "d03:629",
+    "org_surface": "Müller Bau GmbH"
+   },
+   "norm": {
+    "first": "peter",
+    "last": "mueller"
+   }
+  },
+  {
+   "id": "d04:104",
+   "doc_id": "d04",
+   "type": "person",
+   "surface": "T. Becker",
+   "start": 104,
+   "end": 113,
+   "line": 4,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": "Prepared by",
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": "d04:129",
+    "org_surface": "Brandt Generalbau"
+   },
+   "norm": {
+    "first": "t",
+    "last": "becker"
+   }
+  },
+  {
+   "id": "d04:129",
+   "doc_id": "d04",
+   "type": "org",
+   "surface": "Brandt Generalbau",
+   "start": 129,
+   "end": 146,
+   "line": 4,
+   "extractor": "rules",
+   "how": "gazetteer",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "General contractor",
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "brandt",
+     "generalbau"
+    ],
+    "compact": "brandtgeneralbau"
+   }
+  },
+  {
+   "id": "d04:156",
+   "doc_id": "d04",
+   "type": "org",
+   "surface": "Mueller-Bau",
+   "start": 156,
+   "end": 167,
+   "line": 6,
+   "extractor": "rules",
+   "how": "gazetteer",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Rohbau",
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "mueller",
+     "bau"
+    ],
+    "compact": "muellerbau"
+   }
+  },
+  {
+   "id": "d04:247",
+   "doc_id": "d04",
+   "type": "org",
+   "surface": "Elektro Schmidt GmbH",
+   "start": 247,
+   "end": 267,
+   "line": 7,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Elektro",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "elektro",
+     "schmidt"
+    ],
+    "compact": "elektroschmidt"
+   }
+  },
+  {
+   "id": "d04:365",
+   "doc_id": "d04",
+   "type": "org",
+   "surface": "Elbtal Fassaden",
+   "start": 365,
+   "end": 380,
+   "line": 8,
+   "extractor": "rules",
+   "how": "label",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Fassade",
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "elbtal",
+     "fassaden"
+    ],
+    "compact": "elbtalfassaden"
+   }
+  },
+  {
+   "id": "d04:439",
+   "doc_id": "d04",
+   "type": "person",
+   "surface": "Ms. Wolff",
+   "start": 439,
+   "end": 448,
+   "line": 9,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": "d04:450",
+    "org_surface": "Müller Bau"
+   },
+   "norm": {
+    "first": "",
+    "last": "wolff"
+   }
+  },
+  {
+   "id": "d04:450",
+   "doc_id": "d04",
+   "type": "org",
+   "surface": "Müller Bau",
+   "start": 450,
+   "end": 460,
+   "line": 9,
+   "extractor": "rules",
+   "how": "gazetteer",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Rohbau",
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "mueller",
+     "bau"
+    ],
+    "compact": "muellerbau"
+   }
+  },
+  {
+   "id": "d04:550",
+   "doc_id": "d04",
+   "type": "org",
+   "surface": "Gerüstbau Krause GmbH",
+   "start": 550,
+   "end": 571,
+   "line": 10,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Gerüst",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "geruestbau",
+     "krause"
+    ],
+    "compact": "geruestbaukrause"
+   }
+  },
+  {
+   "id": "d04:593",
+   "doc_id": "d04",
+   "type": "person",
+   "surface": "Hr. Schmidt",
+   "start": 593,
+   "end": 604,
+   "line": 11,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "first": "",
+    "last": "schmidt"
+   }
+  },
+  {
+   "id": "d04:676",
+   "doc_id": "d04",
+   "type": "org",
+   "surface": "Mueller-Bau",
+   "start": 676,
+   "end": 687,
+   "line": 11,
+   "extractor": "rules",
+   "how": "gazetteer",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "mueller",
+     "bau"
+    ],
+    "compact": "muellerbau"
+   }
+  },
+  {
+   "id": "d04:698",
+   "doc_id": "d04",
+   "type": "person",
+   "surface": "Thomas Becker",
+   "start": 698,
+   "end": 711,
+   "line": 13,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": "Signed",
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "first": "thomas",
+    "last": "becker"
+   }
+  },
+  {
+   "id": "d05:0",
+   "doc_id": "d05",
+   "type": "org",
+   "surface": "MB Rohbau Berlin",
+   "start": 0,
+   "end": 16,
+   "line": 1,
+   "extractor": "rules",
+   "how": "gazetteer",
+   "ctx": {
+    "project": "SPB-25",
+    "city": "Berlin",
+    "street": "industriestrasse 12",
+    "vat": "DE287445190",
+    "register": null,
+    "vendor": "4711",
+    "trade": "Rohbau",
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "mb",
+     "rohbau"
+    ],
+    "compact": "mbrohbau"
+   }
+  },
+  {
+   "id": "d05:97",
+   "doc_id": "d05",
+   "type": "org",
+   "surface": "Brandt Generalbau GmbH",
+   "start": 97,
+   "end": 119,
+   "line": 4,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "SPB-25",
+    "city": "Berlin",
+    "street": "kurfuerstendamm 180",
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "General contractor",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "brandt",
+     "generalbau"
+    ],
+    "compact": "brandtgeneralbau"
+   }
+  },
+  {
+   "id": "d05:127",
+   "doc_id": "d05",
+   "type": "person",
+   "surface": "Herrn Becker",
+   "start": 127,
+   "end": 139,
+   "line": 5,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": "d05:97",
+    "org_surface": "Brandt Generalbau GmbH"
+   },
+   "norm": {
+    "first": "",
+    "last": "becker"
+   }
+  },
+  {
+   "id": "d05:314",
+   "doc_id": "d05",
+   "type": "org",
+   "surface": "MB Rohbau Berlin",
+   "start": 314,
+   "end": 330,
+   "line": 12,
+   "extractor": "rules",
+   "how": "label",
+   "ctx": {
+    "project": "SPB-25",
+    "city": "Berlin",
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Rohbau",
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "mb",
+     "rohbau"
+    ],
+    "compact": "mbrohbau"
+   }
+  },
+  {
+   "id": "d05:581",
+   "doc_id": "d05",
+   "type": "person",
+   "surface": "S. Wolff",
+   "start": 581,
+   "end": 589,
+   "line": 18,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "SPB-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": "d05:590",
+    "org_surface": "MB Rohbau Berlin"
+   },
+   "norm": {
+    "first": "s",
+    "last": "wolff"
+   }
+  },
+  {
+   "id": "d05:590",
+   "doc_id": "d05",
+   "type": "org",
+   "surface": "MB Rohbau Berlin",
+   "start": 590,
+   "end": 606,
+   "line": 19,
+   "extractor": "rules",
+   "how": "gazetteer",
+   "ctx": {
+    "project": "SPB-25",
+    "city": "Berlin",
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Rohbau",
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "mb",
+     "rohbau"
+    ],
+    "compact": "mbrohbau"
+   }
+  },
+  {
+   "id": "d06:0",
+   "doc_id": "d06",
+   "type": "org",
+   "surface": "Schmidt Elektrotechnik GmbH",
+   "start": 0,
+   "end": 27,
+   "line": 1,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "LDH-25",
+    "city": "Leipzig",
+    "street": "karlliebknechtstrasse 88",
+    "vat": "DE214889302",
+    "register": "HRB 33410",
+    "vendor": null,
+    "trade": "Elektro",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "schmidt",
+     "elektro"
+    ],
+    "compact": "schmidtelektro"
+   }
+  },
+  {
+   "id": "d06:229",
+   "doc_id": "d06",
+   "type": "org",
+   "surface": "Brandt Generalbau GmbH",
+   "start": 229,
+   "end": 251,
+   "line": 7,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "LDH-25",
+    "city": "Berlin",
+    "street": "kurfuerstendamm 180",
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "General contractor",
+    "role": "Client",
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "brandt",
+     "generalbau"
+    ],
+    "compact": "brandtgeneralbau"
+   }
+  },
+  {
+   "id": "d06:292",
+   "doc_id": "d06",
+   "type": "person",
+   "surface": "Mr. Thomas Becker",
+   "start": 292,
+   "end": 309,
+   "line": 8,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "LDH-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": "Attn",
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": "d06:229",
+    "org_surface": "Brandt Generalbau GmbH"
+   },
+   "norm": {
+    "first": "thomas",
+    "last": "becker"
+   }
+  },
+  {
+   "id": "d06:485",
+   "doc_id": "d06",
+   "type": "org",
+   "surface": "M. Bau GmbH & Co. KG",
+   "start": 485,
+   "end": 505,
+   "line": 12,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "LDH-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Rohbau",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH & Co. KG",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "m",
+     "bau"
+    ],
+    "compact": "mbau"
+   }
+  },
+  {
+   "id": "d06:578",
+   "doc_id": "d06",
+   "type": "person",
+   "surface": "J. Schmidt",
+   "start": 578,
+   "end": 588,
+   "line": 15,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "LDH-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": "d06:606",
+    "org_surface": "Schmidt Elektrotechnik GmbH"
+   },
+   "norm": {
+    "first": "j",
+    "last": "schmidt"
+   }
+  },
+  {
+   "id": "d06:606",
+   "doc_id": "d06",
+   "type": "org",
+   "surface": "Schmidt Elektrotechnik GmbH",
+   "start": 606,
+   "end": 633,
+   "line": 16,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "LDH-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Elektro",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "schmidt",
+     "elektro"
+    ],
+    "compact": "schmidtelektro"
+   }
+  },
+  {
+   "id": "d07:117",
+   "doc_id": "d07",
+   "type": "person",
+   "surface": "Hr. Becker",
+   "start": 117,
+   "end": 127,
+   "line": 4,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "LDH-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": "Bauleitung",
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": "d07:129",
+    "org_surface": "Brandt Generalbau GmbH"
+   },
+   "norm": {
+    "first": "",
+    "last": "becker"
+   }
+  },
+  {
+   "id": "d07:129",
+   "doc_id": "d07",
+   "type": "org",
+   "surface": "Brandt Generalbau GmbH",
+   "start": 129,
+   "end": 151,
+   "line": 4,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "LDH-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "General contractor",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "brandt",
+     "generalbau"
+    ],
+    "compact": "brandtgeneralbau"
+   }
+  },
+  {
+   "id": "d07:162",
+   "doc_id": "d07",
+   "type": "org",
+   "surface": "M. Bau GmbH & Co. KG",
+   "start": 162,
+   "end": 182,
+   "line": 6,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "LDH-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Rohbau",
+    "role": "Rohbau",
+    "email_domain": null,
+    "legal_form": "GmbH & Co. KG",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "m",
+     "bau"
+    ],
+    "compact": "mbau"
+   }
+  },
+  {
+   "id": "d07:230",
+   "doc_id": "d07",
+   "type": "org",
+   "surface": "Schmidt Elektro",
+   "start": 230,
+   "end": 245,
+   "line": 7,
+   "extractor": "rules",
+   "how": "gazetteer",
+   "ctx": {
+    "project": "LDH-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Elektro",
+    "role": "Elektro",
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "schmidt",
+     "elektro"
+    ],
+    "compact": "schmidtelektro"
+   }
+  },
+  {
+   "id": "d07:288",
+   "doc_id": "d07",
+   "type": "org",
+   "surface": "Kühn Fassadentechnik",
+   "start": 288,
+   "end": 308,
+   "line": 8,
+   "extractor": "rules",
+   "how": "gazetteer",
+   "ctx": {
+    "project": "LDH-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Fassade",
+    "role": "Fassade",
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "kuehn",
+     "fassaden"
+    ],
+    "compact": "kuehnfassaden"
+   }
+  },
+  {
+   "id": "d07:370",
+   "doc_id": "d07",
+   "type": "person",
+   "surface": "J. Schmidt",
+   "start": 370,
+   "end": 380,
+   "line": 10,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "LDH-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "first": "j",
+    "last": "schmidt"
+   }
+  },
+  {
+   "id": "d07:395",
+   "doc_id": "d07",
+   "type": "person",
+   "surface": "Frau Neumann",
+   "start": 395,
+   "end": 407,
+   "line": 10,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "LDH-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "first": "",
+    "last": "neumann"
+   }
+  },
+  {
+   "id": "d07:461",
+   "doc_id": "d07",
+   "type": "person",
+   "surface": "Thomas Becker",
+   "start": 461,
+   "end": 474,
+   "line": 12,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "LDH-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": "Aufgestellt",
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "first": "thomas",
+    "last": "becker"
+   }
+  },
+  {
+   "id": "d08:0",
+   "doc_id": "d08",
+   "type": "org",
+   "surface": "Elbtal Fassaden",
+   "start": 0,
+   "end": 15,
+   "line": 1,
+   "extractor": "rules",
+   "how": "gazetteer",
+   "ctx": {
+    "project": "LDH-25",
+    "city": "Dresden",
+    "street": "pirnaerlandstrasse 40",
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Fassade",
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": "d08:18",
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "elbtal",
+     "fassaden"
+    ],
+    "compact": "elbtalfassaden"
+   }
+  },
+  {
+   "id": "d08:18",
+   "doc_id": "d08",
+   "type": "org",
+   "surface": "Kühn Fassadentechnik GmbH",
+   "start": 18,
+   "end": 43,
+   "line": 1,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "LDH-25",
+    "city": "Dresden",
+    "street": "pirnaerlandstrasse 40",
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Fassade",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": "d08:0",
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "kuehn",
+     "fassaden"
+    ],
+    "compact": "kuehnfassaden"
+   }
+  },
+  {
+   "id": "d08:85",
+   "doc_id": "d08",
+   "type": "org",
+   "surface": "Brandt Generalbau GmbH",
+   "start": 85,
+   "end": 107,
+   "line": 3,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "LDH-25",
+    "city": "Berlin",
+    "street": "kurfuerstendamm 180",
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "General contractor",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "brandt",
+     "generalbau"
+    ],
+    "compact": "brandtgeneralbau"
+   }
+  },
+  {
+   "id": "d08:429",
+   "doc_id": "d08",
+   "type": "person",
+   "surface": "Katrin Neumann",
+   "start": 429,
+   "end": 443,
+   "line": 13,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "LDH-25",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": "Ihre Ansprechpartnerin",
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "first": "katrin",
+    "last": "neumann"
+   }
+  },
+  {
+   "id": "d08:465",
+   "doc_id": "d08",
+   "type": "org",
+   "surface": "Kühn Fassadentechnik GmbH",
+   "start": 465,
+   "end": 490,
+   "line": 15,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "LDH-25",
+    "city": "Dresden",
+    "street": null,
+    "vat": "DE268114905",
+    "register": "HRB 28841",
+    "vendor": "5102",
+    "trade": "Fassade",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "kuehn",
+     "fassaden"
+    ],
+    "compact": "kuehnfassaden"
+   }
+  },
+  {
+   "id": "d09:40",
+   "doc_id": "d09",
+   "type": "org",
+   "surface": "Brandt Generalbau GmbH",
+   "start": 40,
+   "end": 62,
+   "line": 3,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "KEW-26",
+    "city": "Berlin",
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "General contractor",
+    "role": "Issued by",
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "brandt",
+     "generalbau"
+    ],
+    "compact": "brandtgeneralbau"
+   }
+  },
+  {
+   "id": "d09:195",
+   "doc_id": "d09",
+   "type": "person",
+   "surface": "Thomas Becker",
+   "start": 195,
+   "end": 208,
+   "line": 6,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "KEW-26",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": "Author",
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": "d09:40",
+    "org_surface": "Brandt Generalbau GmbH"
+   },
+   "norm": {
+    "first": "thomas",
+    "last": "becker"
+   }
+  },
+  {
+   "id": "d09:228",
+   "doc_id": "d09",
+   "type": "org",
+   "surface": "Müller Bau GmbH",
+   "start": 228,
+   "end": 243,
+   "line": 9,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "KEW-26",
+    "city": "Hamburg",
+    "street": "veddelerdamm 31",
+    "vat": "DE118334556",
+    "register": "HRB 98112",
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "mueller",
+     "bau"
+    ],
+    "compact": "muellerbau"
+   }
+  },
+  {
+   "id": "d09:325",
+   "doc_id": "d09",
+   "type": "org",
+   "surface": "Hanseatische Hochbau AG",
+   "start": 325,
+   "end": 348,
+   "line": 10,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "KEW-26",
+    "city": "Hamburg",
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Rohbau",
+    "role": null,
+    "email_domain": null,
+    "legal_form": "AG",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "hanseatische",
+     "hochbau"
+    ],
+    "compact": "hanseatischehochbau"
+   }
+  },
+  {
+   "id": "d09:372",
+   "doc_id": "d09",
+   "type": "org",
+   "surface": "Elbtal Fassaden",
+   "start": 372,
+   "end": 387,
+   "line": 11,
+   "extractor": "rules",
+   "how": "gazetteer",
+   "ctx": {
+    "project": "KEW-26",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": "Fassade",
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "elbtal",
+     "fassaden"
+    ],
+    "compact": "elbtalfassaden"
+   }
+  },
+  {
+   "id": "d09:492",
+   "doc_id": "d09",
+   "type": "org",
+   "surface": "Müller Bau GmbH",
+   "start": 492,
+   "end": 507,
+   "line": 13,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "KEW-26",
+    "city": "Berlin",
+    "street": null,
+    "vat": null,
+    "register": "HRB 145233",
+    "vendor": "4711",
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "mueller",
+     "bau"
+    ],
+    "compact": "muellerbau"
+   }
+  },
+  {
+   "id": "d09:654",
+   "doc_id": "d09",
+   "type": "org",
+   "surface": "Müller Bau GmbH",
+   "start": 654,
+   "end": 669,
+   "line": 15,
+   "extractor": "rules",
+   "how": "legal-form",
+   "ctx": {
+    "project": "KEW-26",
+    "city": "Hamburg",
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": "GmbH",
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "tokens": [
+     "mueller",
+     "bau"
+    ],
+    "compact": "muellerbau"
+   }
+  },
+  {
+   "id": "d09:708",
+   "doc_id": "d09",
+   "type": "person",
+   "surface": "Becker, Thomas",
+   "start": 708,
+   "end": 722,
+   "line": 17,
+   "extractor": "rules",
+   "how": "person-pattern",
+   "ctx": {
+    "project": "KEW-26",
+    "city": null,
+    "street": null,
+    "vat": null,
+    "register": null,
+    "vendor": null,
+    "trade": null,
+    "role": null,
+    "email_domain": null,
+    "legal_form": null,
+    "alias_of": null,
+    "org_mention_id": null,
+    "org_surface": null
+   },
+   "norm": {
+    "first": "thomas",
+    "last": "becker"
+   }
+  }
+ ],
+ "pairs": [
+  {
+   "key": "d01:0|d01:834",
+   "a": "d01:0",
+   "b": "d01:834",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9478,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc",
+     "label": "same name within one document",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "key": "d01:0|d02:106",
+   "a": "d01:0",
+   "b": "d02:106",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9939,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:0|d03:49",
+   "a": "d01:0",
+   "b": "d03:49",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9939,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:0|d04:129",
+   "a": "d01:0",
+   "b": "d04:129",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:0|d05:97",
+   "a": "d01:0",
+   "b": "d05:97",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9939,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:0|d06:229",
+   "a": "d01:0",
+   "b": "d06:229",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.989,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d01:0|d07:129",
+   "a": "d01:0",
+   "b": "d07:129",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d01:0|d08:85",
+   "a": "d01:0",
+   "b": "d08:85",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.989,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d01:0|d09:40",
+   "a": "d01:0",
+   "b": "d09:40",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9241,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d01:210|d02:517",
+   "a": "d01:210",
+   "b": "d02:517",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7503,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:210|d03:0",
+   "a": "d01:210",
+   "b": "d03:0",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9866,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:210|d03:185",
+   "a": "d01:210",
+   "b": "d03:185",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:210|d03:629",
+   "a": "d01:210",
+   "b": "d03:629",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9089,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:210|d04:156",
+   "a": "d01:210",
+   "b": "d04:156",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:210|d04:450",
+   "a": "d01:210",
+   "b": "d04:450",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:210|d04:676",
+   "a": "d01:210",
+   "b": "d04:676",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7503,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:210|d06:485",
+   "a": "d01:210",
+   "b": "d06:485",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.3775,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    },
+    {
+     "code": "legal_form_conflict",
+     "label": "different legal forms: GmbH vs GmbH & Co. KG",
+     "weight": -0.8
+    }
+   ]
+  },
+  {
+   "key": "d01:210|d07:162",
+   "a": "d01:210",
+   "b": "d07:162",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.3775,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    },
+    {
+     "code": "legal_form_conflict",
+     "label": "different legal forms: GmbH vs GmbH & Co. KG",
+     "weight": -0.8
+    }
+   ]
+  },
+  {
+   "key": "d01:210|d09:228",
+   "a": "d01:210",
+   "b": "d09:228",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.1192,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "city_conflict",
+     "label": "different cities: Berlin vs Hamburg",
+     "weight": -2.5
+    }
+   ]
+  },
+  {
+   "key": "d01:210|d09:492",
+   "a": "d01:210",
+   "b": "d09:492",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8455,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    }
+   ]
+  },
+  {
+   "key": "d01:210|d09:654",
+   "a": "d01:210",
+   "b": "d09:654",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.1192,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "city_conflict",
+     "label": "different cities: Berlin vs Hamburg",
+     "weight": -2.5
+    }
+   ]
+  },
+  {
+   "key": "d01:305|d03:567",
+   "a": "d01:305",
+   "b": "d03:567",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.8909,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:305|d04:439",
+   "a": "d01:305",
+   "b": "d04:439",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.8909,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Müller Bauunternehmung GmbH / Müller Bau)",
+     "weight": 1.5
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:305|d05:581",
+   "a": "d01:305",
+   "b": "d05:581",
+   "type": "person",
+   "name_sim": 0.85,
+   "confidence": 0.9224,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Müller Bauunternehmung GmbH / MB Rohbau Berlin)",
+     "weight": 1.5
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:808|d02:130",
+   "a": "d01:808",
+   "b": "d02:130",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.9734,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:808|d02:336",
+   "a": "d01:808",
+   "b": "d02:336",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.6457,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:808|d04:104",
+   "a": "d01:808",
+   "b": "d04:104",
+   "type": "person",
+   "name_sim": 0.85,
+   "confidence": 0.9224,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau)",
+     "weight": 1.5
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:808|d04:698",
+   "a": "d01:808",
+   "b": "d04:698",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.8909,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:808|d05:127",
+   "a": "d01:808",
+   "b": "d05:127",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.8909,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:808|d06:292",
+   "a": "d01:808",
+   "b": "d06:292",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.9526,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d01:808|d07:117",
+   "a": "d01:808",
+   "b": "d07:117",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d01:808|d07:461",
+   "a": "d01:808",
+   "b": "d07:461",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d01:808|d09:195",
+   "a": "d01:808",
+   "b": "d09:195",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.9526,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d01:808|d09:708",
+   "a": "d01:808",
+   "b": "d09:708",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d01:834|d02:106",
+   "a": "d01:834",
+   "b": "d02:106",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:834|d03:49",
+   "a": "d01:834",
+   "b": "d03:49",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:834|d04:129",
+   "a": "d01:834",
+   "b": "d04:129",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:834|d05:97",
+   "a": "d01:834",
+   "b": "d05:97",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d01:834|d06:229",
+   "a": "d01:834",
+   "b": "d06:229",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d01:834|d07:129",
+   "a": "d01:834",
+   "b": "d07:129",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d01:834|d08:85",
+   "a": "d01:834",
+   "b": "d08:85",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d01:834|d09:40",
+   "a": "d01:834",
+   "b": "d09:40",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d02:0|d02:570",
+   "a": "d02:0",
+   "b": "d02:570",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9478,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc",
+     "label": "same name within one document",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "key": "d02:0|d02:592",
+   "a": "d02:0",
+   "b": "d02:592",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9978,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc",
+     "label": "same name within one document",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "key": "d02:0|d04:247",
+   "a": "d02:0",
+   "b": "d04:247",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:0|d06:0",
+   "a": "d02:0",
+   "b": "d06:0",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.2315,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "city_conflict",
+     "label": "different cities: Berlin vs Leipzig",
+     "weight": -2.5
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d02:0|d06:606",
+   "a": "d02:0",
+   "b": "d06:606",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d02:0|d07:230",
+   "a": "d02:0",
+   "b": "d07:230",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d02:106|d03:49",
+   "a": "d02:106",
+   "b": "d03:49",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9939,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:106|d04:129",
+   "a": "d02:106",
+   "b": "d04:129",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:106|d05:97",
+   "a": "d02:106",
+   "b": "d05:97",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9939,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:106|d06:229",
+   "a": "d02:106",
+   "b": "d06:229",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.989,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d02:106|d07:129",
+   "a": "d02:106",
+   "b": "d07:129",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d02:106|d08:85",
+   "a": "d02:106",
+   "b": "d08:85",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.989,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d02:106|d09:40",
+   "a": "d02:106",
+   "b": "d09:40",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9241,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d02:130|d02:336",
+   "a": "d02:130",
+   "b": "d02:336",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.8909,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc_person",
+     "label": "compatible names within one document",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d02:130|d04:104",
+   "a": "d02:130",
+   "b": "d04:104",
+   "type": "person",
+   "name_sim": 0.85,
+   "confidence": 0.9224,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau)",
+     "weight": 1.5
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:130|d04:698",
+   "a": "d02:130",
+   "b": "d04:698",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.8909,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:130|d05:127",
+   "a": "d02:130",
+   "b": "d05:127",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.8909,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:130|d06:292",
+   "a": "d02:130",
+   "b": "d06:292",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.9526,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d02:130|d07:117",
+   "a": "d02:130",
+   "b": "d07:117",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d02:130|d07:461",
+   "a": "d02:130",
+   "b": "d07:461",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d02:130|d09:195",
+   "a": "d02:130",
+   "b": "d09:195",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.9526,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d02:130|d09:708",
+   "a": "d02:130",
+   "b": "d09:708",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d02:336|d04:104",
+   "a": "d02:336",
+   "b": "d04:104",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.6457,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:336|d04:698",
+   "a": "d02:336",
+   "b": "d04:698",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.6457,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:336|d05:127",
+   "a": "d02:336",
+   "b": "d05:127",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.6457,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:336|d06:292",
+   "a": "d02:336",
+   "b": "d06:292",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.5,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d02:336|d07:117",
+   "a": "d02:336",
+   "b": "d07:117",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.5,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d02:336|d07:461",
+   "a": "d02:336",
+   "b": "d07:461",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.5,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d02:336|d09:195",
+   "a": "d02:336",
+   "b": "d09:195",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.5,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d02:336|d09:708",
+   "a": "d02:336",
+   "b": "d09:708",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.5,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d02:517|d03:0",
+   "a": "d02:517",
+   "b": "d03:0",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7503,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:517|d03:185",
+   "a": "d02:517",
+   "b": "d03:185",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7503,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:517|d03:629",
+   "a": "d02:517",
+   "b": "d03:629",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7503,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:517|d04:156",
+   "a": "d02:517",
+   "b": "d04:156",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7503,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:517|d04:450",
+   "a": "d02:517",
+   "b": "d04:450",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7503,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:517|d04:676",
+   "a": "d02:517",
+   "b": "d04:676",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7503,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:517|d06:485",
+   "a": "d02:517",
+   "b": "d06:485",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.3775,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d02:517|d07:162",
+   "a": "d02:517",
+   "b": "d07:162",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.3775,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d02:517|d09:228",
+   "a": "d02:517",
+   "b": "d09:228",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.6225,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d02:517|d09:492",
+   "a": "d02:517",
+   "b": "d09:492",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.6225,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d02:517|d09:654",
+   "a": "d02:517",
+   "b": "d09:654",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.6225,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d02:557|d04:593",
+   "a": "d02:557",
+   "b": "d04:593",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.6457,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:557|d06:578",
+   "a": "d02:557",
+   "b": "d06:578",
+   "type": "person",
+   "name_sim": 0.85,
+   "confidence": 0.3486,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "employer_different",
+     "label": "different employers: Schmidt Elektro GmbH vs Schmidt Elektrotechnik GmbH",
+     "weight": -1
+    }
+   ]
+  },
+  {
+   "key": "d02:557|d07:370",
+   "a": "d02:557",
+   "b": "d07:370",
+   "type": "person",
+   "name_sim": 0.85,
+   "confidence": 0.5927,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d02:570|d02:592",
+   "a": "d02:570",
+   "b": "d02:592",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9478,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc",
+     "label": "same name within one document",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "key": "d02:570|d04:247",
+   "a": "d02:570",
+   "b": "d04:247",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:570|d06:0",
+   "a": "d02:570",
+   "b": "d06:0",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d02:570|d06:606",
+   "a": "d02:570",
+   "b": "d06:606",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d02:570|d07:230",
+   "a": "d02:570",
+   "b": "d07:230",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d02:592|d04:247",
+   "a": "d02:592",
+   "b": "d04:247",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d02:592|d06:0",
+   "a": "d02:592",
+   "b": "d06:0",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0,
+   "bucket": "separate",
+   "rule": "R0",
+   "evidence": [
+    {
+     "code": "vat_conflict",
+     "label": "different VAT ID: DE301552784 vs DE214889302",
+     "weight": -6
+    },
+    {
+     "code": "register_conflict",
+     "label": "different register entry: HRB 201877 vs HRB 33410",
+     "weight": -5
+    },
+    {
+     "code": "city_conflict",
+     "label": "different cities: Berlin vs Leipzig",
+     "weight": -2.5
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d02:592|d06:606",
+   "a": "d02:592",
+   "b": "d06:606",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d02:592|d07:230",
+   "a": "d02:592",
+   "b": "d07:230",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d03:0|d03:185",
+   "a": "d03:0",
+   "b": "d03:185",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8909,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc",
+     "label": "same name within one document",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "key": "d03:0|d03:629",
+   "a": "d03:0",
+   "b": "d03:629",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9644,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc",
+     "label": "same name within one document",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "key": "d03:0|d04:156",
+   "a": "d03:0",
+   "b": "d04:156",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7503,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d03:0|d04:450",
+   "a": "d03:0",
+   "b": "d04:450",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7503,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d03:0|d04:676",
+   "a": "d03:0",
+   "b": "d04:676",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7503,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d03:0|d06:485",
+   "a": "d03:0",
+   "b": "d06:485",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.2142,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "legal_form_conflict",
+     "label": "different legal forms: GmbH vs GmbH & Co. KG",
+     "weight": -0.8
+    }
+   ]
+  },
+  {
+   "key": "d03:0|d07:162",
+   "a": "d03:0",
+   "b": "d07:162",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.2142,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "legal_form_conflict",
+     "label": "different legal forms: GmbH vs GmbH & Co. KG",
+     "weight": -0.8
+    }
+   ]
+  },
+  {
+   "key": "d03:0|d09:228",
+   "a": "d03:0",
+   "b": "d09:228",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.1192,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "city_conflict",
+     "label": "different cities: Berlin vs Hamburg",
+     "weight": -2.5
+    }
+   ]
+  },
+  {
+   "key": "d03:0|d09:492",
+   "a": "d03:0",
+   "b": "d09:492",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8455,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    }
+   ]
+  },
+  {
+   "key": "d03:0|d09:654",
+   "a": "d03:0",
+   "b": "d09:654",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.1192,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "city_conflict",
+     "label": "different cities: Berlin vs Hamburg",
+     "weight": -2.5
+    }
+   ]
+  },
+  {
+   "key": "d03:185|d03:629",
+   "a": "d03:185",
+   "b": "d03:629",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8909,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc",
+     "label": "same name within one document",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "key": "d03:185|d04:156",
+   "a": "d03:185",
+   "b": "d04:156",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d03:185|d04:450",
+   "a": "d03:185",
+   "b": "d04:450",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d03:185|d04:676",
+   "a": "d03:185",
+   "b": "d04:676",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7503,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d03:185|d05:0",
+   "a": "d03:185",
+   "b": "d05:0",
+   "type": "org",
+   "name_sim": 0,
+   "confidence": 0.97,
+   "bucket": "auto",
+   "rule": "R1",
+   "evidence": [
+    {
+     "code": "vendor_match",
+     "label": "same vendor no. 4711",
+     "weight": 4.5
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d03:185|d06:485",
+   "a": "d03:185",
+   "b": "d06:485",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.3775,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    },
+    {
+     "code": "legal_form_conflict",
+     "label": "different legal forms: GmbH vs GmbH & Co. KG",
+     "weight": -0.8
+    }
+   ]
+  },
+  {
+   "key": "d03:185|d07:162",
+   "a": "d03:185",
+   "b": "d07:162",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.3775,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    },
+    {
+     "code": "legal_form_conflict",
+     "label": "different legal forms: GmbH vs GmbH & Co. KG",
+     "weight": -0.8
+    }
+   ]
+  },
+  {
+   "key": "d03:185|d09:228",
+   "a": "d03:185",
+   "b": "d09:228",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.6225,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d03:185|d09:492",
+   "a": "d03:185",
+   "b": "d09:492",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9933,
+   "bucket": "auto",
+   "rule": "R1",
+   "evidence": [
+    {
+     "code": "vendor_match",
+     "label": "same vendor no. 4711",
+     "weight": 4.5
+    }
+   ]
+  },
+  {
+   "key": "d03:185|d09:654",
+   "a": "d03:185",
+   "b": "d09:654",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.6225,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d03:49|d04:129",
+   "a": "d03:49",
+   "b": "d04:129",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d03:49|d05:97",
+   "a": "d03:49",
+   "b": "d05:97",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9939,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d03:49|d06:229",
+   "a": "d03:49",
+   "b": "d06:229",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.989,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d03:49|d07:129",
+   "a": "d03:49",
+   "b": "d07:129",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d03:49|d08:85",
+   "a": "d03:49",
+   "b": "d08:85",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.989,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d03:49|d09:40",
+   "a": "d03:49",
+   "b": "d09:40",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9241,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d03:567|d04:439",
+   "a": "d03:567",
+   "b": "d04:439",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.6457,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d03:567|d05:581",
+   "a": "d03:567",
+   "b": "d05:581",
+   "type": "person",
+   "name_sim": 0.85,
+   "confidence": 0.7261,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d03:629|d04:156",
+   "a": "d03:629",
+   "b": "d04:156",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7503,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d03:629|d04:450",
+   "a": "d03:629",
+   "b": "d04:450",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7503,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d03:629|d04:676",
+   "a": "d03:629",
+   "b": "d04:676",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7503,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d03:629|d05:0",
+   "a": "d03:629",
+   "b": "d05:0",
+   "type": "org",
+   "name_sim": 0,
+   "confidence": 0.97,
+   "bucket": "auto",
+   "rule": "R1",
+   "evidence": [
+    {
+     "code": "vat_match",
+     "label": "same VAT ID DE287445190",
+     "weight": 5
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d03:629|d06:485",
+   "a": "d03:629",
+   "b": "d06:485",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.2142,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "legal_form_conflict",
+     "label": "different legal forms: GmbH vs GmbH & Co. KG",
+     "weight": -0.8
+    }
+   ]
+  },
+  {
+   "key": "d03:629|d07:162",
+   "a": "d03:629",
+   "b": "d07:162",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.2142,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "legal_form_conflict",
+     "label": "different legal forms: GmbH vs GmbH & Co. KG",
+     "weight": -0.8
+    }
+   ]
+  },
+  {
+   "key": "d03:629|d09:228",
+   "a": "d03:629",
+   "b": "d09:228",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0,
+   "bucket": "separate",
+   "rule": "R0",
+   "evidence": [
+    {
+     "code": "vat_conflict",
+     "label": "different VAT ID: DE287445190 vs DE118334556",
+     "weight": -6
+    },
+    {
+     "code": "register_conflict",
+     "label": "different register entry: HRB 145233 vs HRB 98112",
+     "weight": -5
+    },
+    {
+     "code": "city_conflict",
+     "label": "different cities: Berlin vs Hamburg",
+     "weight": -2.5
+    }
+   ]
+  },
+  {
+   "key": "d03:629|d09:492",
+   "a": "d03:629",
+   "b": "d09:492",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9967,
+   "bucket": "auto",
+   "rule": "R1",
+   "evidence": [
+    {
+     "code": "register_match",
+     "label": "same register entry HRB 145233",
+     "weight": 4
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    }
+   ]
+  },
+  {
+   "key": "d03:629|d09:654",
+   "a": "d03:629",
+   "b": "d09:654",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.1192,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "city_conflict",
+     "label": "different cities: Berlin vs Hamburg",
+     "weight": -2.5
+    }
+   ]
+  },
+  {
+   "key": "d04:104|d04:698",
+   "a": "d04:104",
+   "b": "d04:698",
+   "type": "person",
+   "name_sim": 0.85,
+   "confidence": 0.9224,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc_person",
+     "label": "compatible names within one document",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d04:104|d05:127",
+   "a": "d04:104",
+   "b": "d05:127",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.8909,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d04:104|d06:292",
+   "a": "d04:104",
+   "b": "d06:292",
+   "type": "person",
+   "name_sim": 0.85,
+   "confidence": 0.867,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d04:104|d07:117",
+   "a": "d04:104",
+   "b": "d07:117",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d04:104|d07:461",
+   "a": "d04:104",
+   "b": "d07:461",
+   "type": "person",
+   "name_sim": 0.85,
+   "confidence": 0.5927,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:104|d09:195",
+   "a": "d04:104",
+   "b": "d09:195",
+   "type": "person",
+   "name_sim": 0.85,
+   "confidence": 0.867,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d04:104|d09:708",
+   "a": "d04:104",
+   "b": "d09:708",
+   "type": "person",
+   "name_sim": 0.85,
+   "confidence": 0.5927,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:129|d05:97",
+   "a": "d04:129",
+   "b": "d05:97",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d04:129|d06:229",
+   "a": "d04:129",
+   "b": "d06:229",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d04:129|d07:129",
+   "a": "d04:129",
+   "b": "d07:129",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d04:129|d08:85",
+   "a": "d04:129",
+   "b": "d08:85",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d04:129|d09:40",
+   "a": "d04:129",
+   "b": "d09:40",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d04:156|d04:450",
+   "a": "d04:156",
+   "b": "d04:450",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9478,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc",
+     "label": "same name within one document",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "key": "d04:156|d04:676",
+   "a": "d04:156",
+   "b": "d04:676",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8909,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc",
+     "label": "same name within one document",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "key": "d04:156|d06:485",
+   "a": "d04:156",
+   "b": "d06:485",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.5744,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d04:156|d07:162",
+   "a": "d04:156",
+   "b": "d07:162",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.5744,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d04:156|d09:228",
+   "a": "d04:156",
+   "b": "d09:228",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.6225,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:156|d09:492",
+   "a": "d04:156",
+   "b": "d09:492",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.6225,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:156|d09:654",
+   "a": "d04:156",
+   "b": "d09:654",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.6225,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:247|d06:0",
+   "a": "d04:247",
+   "b": "d06:0",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d04:247|d06:606",
+   "a": "d04:247",
+   "b": "d06:606",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d04:247|d07:230",
+   "a": "d04:247",
+   "b": "d07:230",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d04:365|d08:0",
+   "a": "d04:365",
+   "b": "d08:0",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Fassade)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d04:365|d09:372",
+   "a": "d04:365",
+   "b": "d09:372",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Fassade)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d04:439|d05:581",
+   "a": "d04:439",
+   "b": "d05:581",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.8909,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Müller Bau / MB Rohbau Berlin)",
+     "weight": 1.5
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d04:450|d04:676",
+   "a": "d04:450",
+   "b": "d04:676",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8909,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc",
+     "label": "same name within one document",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "key": "d04:450|d06:485",
+   "a": "d04:450",
+   "b": "d06:485",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.5744,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d04:450|d07:162",
+   "a": "d04:450",
+   "b": "d07:162",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.5744,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d04:450|d09:228",
+   "a": "d04:450",
+   "b": "d09:228",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.6225,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:450|d09:492",
+   "a": "d04:450",
+   "b": "d09:492",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.6225,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:450|d09:654",
+   "a": "d04:450",
+   "b": "d09:654",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.6225,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:593|d06:578",
+   "a": "d04:593",
+   "b": "d06:578",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.5,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:593|d07:370",
+   "a": "d04:593",
+   "b": "d07:370",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.5,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:676|d06:485",
+   "a": "d04:676",
+   "b": "d06:485",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.3775,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:676|d07:162",
+   "a": "d04:676",
+   "b": "d07:162",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.3775,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:676|d09:228",
+   "a": "d04:676",
+   "b": "d09:228",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.6225,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:676|d09:492",
+   "a": "d04:676",
+   "b": "d09:492",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.6225,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:676|d09:654",
+   "a": "d04:676",
+   "b": "d09:654",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.6225,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:698|d05:127",
+   "a": "d04:698",
+   "b": "d05:127",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.6457,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d04:698|d06:292",
+   "a": "d04:698",
+   "b": "d06:292",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:698|d07:117",
+   "a": "d04:698",
+   "b": "d07:117",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.5,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:698|d07:461",
+   "a": "d04:698",
+   "b": "d07:461",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:698|d09:195",
+   "a": "d04:698",
+   "b": "d09:195",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d04:698|d09:708",
+   "a": "d04:698",
+   "b": "d09:708",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d05:0|d05:314",
+   "a": "d05:0",
+   "b": "d05:314",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9837,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc",
+     "label": "same name within one document",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "key": "d05:0|d05:590",
+   "a": "d05:0",
+   "b": "d05:590",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9837,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc",
+     "label": "same name within one document",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "key": "d05:0|d06:485",
+   "a": "d05:0",
+   "b": "d06:485",
+   "type": "org",
+   "name_sim": 0.5333,
+   "confidence": 0.0998,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d05:0|d07:162",
+   "a": "d05:0",
+   "b": "d07:162",
+   "type": "org",
+   "name_sim": 0.5333,
+   "confidence": 0.0998,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d05:0|d09:228",
+   "a": "d05:0",
+   "b": "d09:228",
+   "type": "org",
+   "name_sim": 0,
+   "confidence": 0,
+   "bucket": "separate",
+   "rule": "R0",
+   "evidence": [
+    {
+     "code": "vat_conflict",
+     "label": "different VAT ID: DE287445190 vs DE118334556",
+     "weight": -6
+    },
+    {
+     "code": "city_conflict",
+     "label": "different cities: Berlin vs Hamburg",
+     "weight": -2.5
+    }
+   ]
+  },
+  {
+   "key": "d05:0|d09:492",
+   "a": "d05:0",
+   "b": "d09:492",
+   "type": "org",
+   "name_sim": 0,
+   "confidence": 0.97,
+   "bucket": "auto",
+   "rule": "R1",
+   "evidence": [
+    {
+     "code": "vendor_match",
+     "label": "same vendor no. 4711",
+     "weight": 4.5
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    }
+   ]
+  },
+  {
+   "key": "d05:127|d06:292",
+   "a": "d05:127",
+   "b": "d06:292",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d05:127|d07:117",
+   "a": "d05:127",
+   "b": "d07:117",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d05:127|d07:461",
+   "a": "d05:127",
+   "b": "d07:461",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.5,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d05:127|d09:195",
+   "a": "d05:127",
+   "b": "d09:195",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d05:127|d09:708",
+   "a": "d05:127",
+   "b": "d09:708",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.5,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d05:314|d05:590",
+   "a": "d05:314",
+   "b": "d05:590",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9837,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (SPB-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc",
+     "label": "same name within one document",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "key": "d05:314|d06:485",
+   "a": "d05:314",
+   "b": "d06:485",
+   "type": "org",
+   "name_sim": 0.5333,
+   "confidence": 0.0998,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d05:314|d07:162",
+   "a": "d05:314",
+   "b": "d07:162",
+   "type": "org",
+   "name_sim": 0.5333,
+   "confidence": 0.0998,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d05:590|d06:485",
+   "a": "d05:590",
+   "b": "d06:485",
+   "type": "org",
+   "name_sim": 0.5333,
+   "confidence": 0.0998,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d05:590|d07:162",
+   "a": "d05:590",
+   "b": "d07:162",
+   "type": "org",
+   "name_sim": 0.5333,
+   "confidence": 0.0998,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d05:97|d06:229",
+   "a": "d05:97",
+   "b": "d06:229",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.989,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d05:97|d07:129",
+   "a": "d05:97",
+   "b": "d07:129",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d05:97|d08:85",
+   "a": "d05:97",
+   "b": "d08:85",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.989,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d05:97|d09:40",
+   "a": "d05:97",
+   "b": "d09:40",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9241,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d06:0|d06:606",
+   "a": "d06:0",
+   "b": "d06:606",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9478,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (LDH-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc",
+     "label": "same name within one document",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "key": "d06:0|d07:230",
+   "a": "d06:0",
+   "b": "d07:230",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (LDH-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d06:229|d07:129",
+   "a": "d06:229",
+   "b": "d07:129",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (LDH-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d06:229|d08:85",
+   "a": "d06:229",
+   "b": "d08:85",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9939,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (LDH-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d06:229|d09:40",
+   "a": "d06:229",
+   "b": "d09:40",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9241,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d06:292|d07:117",
+   "a": "d06:292",
+   "b": "d07:117",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.8909,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    },
+    {
+     "code": "project_match",
+     "label": "same project (LDH-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d06:292|d07:461",
+   "a": "d06:292",
+   "b": "d07:461",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.8909,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (LDH-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d06:292|d09:195",
+   "a": "d06:292",
+   "b": "d09:195",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.9526,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d06:292|d09:708",
+   "a": "d06:292",
+   "b": "d09:708",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d06:485|d07:162",
+   "a": "d06:485",
+   "b": "d07:162",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Rohbau)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (LDH-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d06:485|d09:228",
+   "a": "d06:485",
+   "b": "d09:228",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.2142,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "legal_form_conflict",
+     "label": "different legal forms: GmbH & Co. KG vs GmbH",
+     "weight": -0.8
+    }
+   ]
+  },
+  {
+   "key": "d06:485|d09:492",
+   "a": "d06:485",
+   "b": "d09:492",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.2142,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "legal_form_conflict",
+     "label": "different legal forms: GmbH & Co. KG vs GmbH",
+     "weight": -0.8
+    }
+   ]
+  },
+  {
+   "key": "d06:485|d09:654",
+   "a": "d06:485",
+   "b": "d09:654",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.2142,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "legal_form_conflict",
+     "label": "different legal forms: GmbH & Co. KG vs GmbH",
+     "weight": -0.8
+    }
+   ]
+  },
+  {
+   "key": "d06:578|d07:370",
+   "a": "d06:578",
+   "b": "d07:370",
+   "type": "person",
+   "name_sim": 0.9,
+   "confidence": 0.7941,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (LDH-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d06:606|d07:230",
+   "a": "d06:606",
+   "b": "d07:230",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Elektro)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (LDH-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d07:117|d07:461",
+   "a": "d07:117",
+   "b": "d07:461",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.8909,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (LDH-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc_person",
+     "label": "compatible names within one document",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d07:117|d09:195",
+   "a": "d07:117",
+   "b": "d09:195",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "employer_same",
+     "label": "employers resolve to the same organisation (Brandt Generalbau GmbH / Brandt Generalbau GmbH)",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d07:117|d09:708",
+   "a": "d07:117",
+   "b": "d09:708",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.5,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d07:129|d08:85",
+   "a": "d07:129",
+   "b": "d08:85",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (LDH-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d07:129|d09:40",
+   "a": "d07:129",
+   "b": "d09:40",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d07:162|d09:228",
+   "a": "d07:162",
+   "b": "d09:228",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.2142,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "legal_form_conflict",
+     "label": "different legal forms: GmbH & Co. KG vs GmbH",
+     "weight": -0.8
+    }
+   ]
+  },
+  {
+   "key": "d07:162|d09:492",
+   "a": "d07:162",
+   "b": "d09:492",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.2142,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "legal_form_conflict",
+     "label": "different legal forms: GmbH & Co. KG vs GmbH",
+     "weight": -0.8
+    }
+   ]
+  },
+  {
+   "key": "d07:162|d09:654",
+   "a": "d07:162",
+   "b": "d09:654",
+   "type": "org",
+   "name_sim": 0.8667,
+   "confidence": 0.2142,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "legal_form_conflict",
+     "label": "different legal forms: GmbH & Co. KG vs GmbH",
+     "weight": -0.8
+    }
+   ]
+  },
+  {
+   "key": "d07:288|d08:18",
+   "a": "d07:288",
+   "b": "d08:18",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Fassade)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (LDH-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d07:288|d08:465",
+   "a": "d07:288",
+   "b": "d08:465",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.8699,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Fassade)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (LDH-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d07:395|d08:429",
+   "a": "d07:395",
+   "b": "d08:429",
+   "type": "person",
+   "name_sim": 0.8,
+   "confidence": 0.6457,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (LDH-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d07:461|d09:195",
+   "a": "d07:461",
+   "b": "d09:195",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d07:461|d09:708",
+   "a": "d07:461",
+   "b": "d09:708",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.8176,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": []
+  },
+  {
+   "key": "d08:0|d08:18",
+   "a": "d08:0",
+   "b": "d08:18",
+   "type": "org",
+   "name_sim": 0.3333,
+   "confidence": 0.9978,
+   "bucket": "auto",
+   "rule": "R1",
+   "evidence": [
+    {
+     "code": "alias",
+     "label": "named together on one letterhead",
+     "weight": 6
+    },
+    {
+     "code": "street_match",
+     "label": "same street address",
+     "weight": 2
+    },
+    {
+     "code": "city_match",
+     "label": "same city (Dresden)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (Fassade)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (LDH-25)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d08:0|d09:372",
+   "a": "d08:0",
+   "b": "d09:372",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.7858,
+   "bucket": "unsure",
+   "rule": "R3",
+   "evidence": [
+    {
+     "code": "trade_match",
+     "label": "same trade (Fassade)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d08:18|d08:465",
+   "a": "d08:18",
+   "b": "d08:465",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9837,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "city_match",
+     "label": "same city (Dresden)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (Fassade)",
+     "weight": 0.8
+    },
+    {
+     "code": "project_match",
+     "label": "same project (LDH-25)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc",
+     "label": "same name within one document",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "key": "d08:85|d09:40",
+   "a": "d08:85",
+   "b": "d09:40",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9241,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "city_match",
+     "label": "same city (Berlin)",
+     "weight": 1.2
+    },
+    {
+     "code": "trade_match",
+     "label": "same trade (General contractor)",
+     "weight": 0.8
+    }
+   ]
+  },
+  {
+   "key": "d09:195|d09:708",
+   "a": "d09:195",
+   "b": "d09:708",
+   "type": "person",
+   "name_sim": 1,
+   "confidence": 0.9734,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "project_match",
+     "label": "same project (KEW-26)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc_person",
+     "label": "compatible names within one document",
+     "weight": 1.5
+    }
+   ]
+  },
+  {
+   "key": "d09:228|d09:492",
+   "a": "d09:228",
+   "b": "d09:492",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.0017,
+   "bucket": "separate",
+   "rule": "R0",
+   "evidence": [
+    {
+     "code": "register_conflict",
+     "label": "different register entry: HRB 98112 vs HRB 145233",
+     "weight": -5
+    },
+    {
+     "code": "city_conflict",
+     "label": "different cities: Hamburg vs Berlin",
+     "weight": -2.5
+    },
+    {
+     "code": "project_match",
+     "label": "same project (KEW-26)",
+     "weight": 0.6
+    }
+   ]
+  },
+  {
+   "key": "d09:228|d09:654",
+   "a": "d09:228",
+   "b": "d09:654",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.9644,
+   "bucket": "auto",
+   "rule": "R2",
+   "evidence": [
+    {
+     "code": "city_match",
+     "label": "same city (Hamburg)",
+     "weight": 1.2
+    },
+    {
+     "code": "project_match",
+     "label": "same project (KEW-26)",
+     "weight": 0.6
+    },
+    {
+     "code": "same_doc",
+     "label": "same name within one document",
+     "weight": 1
+    }
+   ]
+  },
+  {
+   "key": "d09:492|d09:654",
+   "a": "d09:492",
+   "b": "d09:654",
+   "type": "org",
+   "name_sim": 1,
+   "confidence": 0.1978,
+   "bucket": "separate",
+   "rule": "R4",
+   "evidence": [
+    {
+     "code": "city_conflict",
+     "label": "different cities: Berlin vs Hamburg",
+     "weight": -2.5
+    },
+    {
+     "code": "project_match",
+     "label": "same project (KEW-26)",
+     "weight": 0.6
+    }
+   ]
+  }
+ ],
+ "clusters": [
+  [
+   "d01:0",
+   "d01:834",
+   "d02:106",
+   "d03:49",
+   "d04:129",
+   "d05:97",
+   "d06:229",
+   "d07:129",
+   "d08:85",
+   "d09:40"
+  ],
+  [
+   "d01:210",
+   "d03:0",
+   "d03:185",
+   "d03:629",
+   "d04:156",
+   "d04:450",
+   "d04:676",
+   "d05:0",
+   "d05:314",
+   "d05:590",
+   "d09:492"
+  ],
+  [
+   "d01:305",
+   "d03:567",
+   "d04:439",
+   "d05:581"
+  ],
+  [
+   "d01:768"
+  ],
+  [
+   "d01:808",
+   "d02:130",
+   "d02:336",
+   "d04:104",
+   "d04:698",
+   "d05:127",
+   "d06:292",
+   "d07:117",
+   "d07:461",
+   "d09:195",
+   "d09:708"
+  ],
+  [
+   "d02:0",
+   "d02:570",
+   "d02:592",
+   "d04:247"
+  ],
+  [
+   "d02:517"
+  ],
+  [
+   "d02:557"
+  ],
+  [
+   "d03:664"
+  ],
+  [
+   "d04:365"
+  ],
+  [
+   "d04:550"
+  ],
+  [
+   "d04:593"
+  ],
+  [
+   "d06:0",
+   "d06:606",
+   "d07:230"
+  ],
+  [
+   "d06:485",
+   "d07:162"
+  ],
+  [
+   "d06:578"
+  ],
+  [
+   "d07:288",
+   "d08:0",
+   "d08:18",
+   "d08:465"
+  ],
+  [
+   "d07:370"
+  ],
+  [
+   "d07:395"
+  ],
+  [
+   "d08:429"
+  ],
+  [
+   "d09:228",
+   "d09:654"
+  ],
+  [
+   "d09:325"
+  ],
+  [
+   "d09:372"
+  ]
+ ],
+ "queue": [
+  "d06:578|d07:370",
+  "d04:365|d08:0",
+  "d04:365|d09:372",
+  "d08:0|d09:372",
+  "d01:210|d02:517",
+  "d02:557|d04:593",
+  "d07:395|d08:429",
+  "d02:517|d09:228",
+  "d02:557|d07:370",
+  "d04:156|d06:485",
+  "d04:593|d06:578",
+  "d04:593|d07:370",
+  "d02:517|d06:485"
+ ]
+}

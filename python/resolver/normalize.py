@@ -56,7 +56,7 @@ GENERIC = {
 
 DROP_TOKENS = {"und", "and", "co", "fa", "firma"}
 
-_COMBINING = re.compile("[̀-ͯ]")
+_COMBINING = re.compile("[\u0300-\u036f]")
 _NON_ALNUM = re.compile(r"[^a-z0-9]+")
 
 def fold(text: str) -> str:

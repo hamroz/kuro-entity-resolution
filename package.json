@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "fixture": "tsx scripts/export-fixture.ts",
+    "test:py": "cd python && .venv/bin/pytest -q"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.9.0",
