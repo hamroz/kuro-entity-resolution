@@ -1,0 +1,15 @@
+[project]
+name = "kuro-er-resolver"
+version = "0.1.0"
+description = "Reversible, evidence-linked entity resolution for construction documents (reference implementation)"
+authors = [{ name = "Hamroz Gavharov" }]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+flow = ["prefect>=3"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

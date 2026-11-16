@@ -1,0 +1,17 @@
+Award memo / Vergabevermerk
+
+Issued by: Brandt Generalbau GmbH, Berlin
+Project: Kita Elbinsel, Hamburg-Wilhelmsburg (KEW-26)
+Package: VE 02 shell construction (Rohbau)
+Date: 03.11.2025 · Author: Thomas Becker
+
+Bids received:
+1. Müller Bau GmbH, Veddeler Damm 31, 20457 Hamburg, HRB 98112, USt-IdNr. DE118334556, EUR 1.92m
+2. Hanseatische Hochbau AG, Hamburg, EUR 2.05m
+3. Elbtal Fassaden (alternate bid for the facade package, not evaluated here)
+
+Note: bidder 1 is not our framework partner Müller Bau GmbH from Berlin (Kreditor-Nr. 4711, HRB 145233 B). Different register entry and VAT ID, so a new vendor record is required.
+
+Recommendation: award to Müller Bau GmbH (Hamburg), subject to the KYC check.
+
+Becker, Thomas

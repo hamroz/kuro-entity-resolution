@@ -1,0 +1,18 @@
+{
+  "projects": [
+    { "id": "SPB-25", "name": "Wohnquartier Spreebogen, Berlin-Moabit" },
+    { "id": "LDH-25", "name": "Bürohaus Lindenhof, Leipzig" },
+    { "id": "KEW-26", "name": "Kita Elbinsel, Hamburg-Wilhelmsburg" }
+  ],
+  "documents": [
+    { "id": "d01", "file": "d01-lv-rohbau-spreebogen.txt", "title": "Leistungsverzeichnis Rohbau (Auszug)", "kind": "Bill of quantities", "lang": "de", "project": "SPB-25" },
+    { "id": "d02", "file": "d02-angebot-elektro-spreebogen.txt", "title": "Angebot Elektroinstallation", "kind": "Subcontractor quote", "lang": "de", "project": "SPB-25" },
+    { "id": "d03", "file": "d03-rechnung-rohbau-spreebogen.txt", "title": "Abschlagsrechnung Nr. 3 Rohbau", "kind": "Invoice", "lang": "de", "project": "SPB-25" },
+    { "id": "d04", "file": "d04-site-diary-spreebogen.txt", "title": "Site diary 06.05.2025", "kind": "Site diary", "lang": "en", "project": "SPB-25" },
+    { "id": "d05", "file": "d05-nachtrag-rohbau-spreebogen.txt", "title": "Nachtragsangebot NA-07", "kind": "Change order quote", "lang": "de", "project": "SPB-25" },
+    { "id": "d06", "file": "d06-quotation-electrical-lindenhof.txt", "title": "Quotation electrical installation", "kind": "Subcontractor quote", "lang": "en", "project": "LDH-25" },
+    { "id": "d07", "file": "d07-bautagebuch-lindenhof.txt", "title": "Bautagebuch Nr. 112", "kind": "Site diary", "lang": "de", "project": "LDH-25" },
+    { "id": "d08", "file": "d08-rechnung-fassade-lindenhof.txt", "title": "Rechnung Fassade VHF", "kind": "Invoice", "lang": "de", "project": "LDH-25" },
+    { "id": "d09", "file": "d09-award-memo-elbinsel.txt", "title": "Award memo / Vergabevermerk Rohbau", "kind": "Award memo", "lang": "en", "project": "KEW-26" }
+  ]
+}
